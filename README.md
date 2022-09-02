@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+Primero descargar el repositorio.
+    - De manera local, ingresar en la terminal del proyecto y ingresar el siguiente comando.
+        - npm install o npm i (Para instalar las dependencias de Node).
+    - Luego de que se instalen las dependencias, ya esta operativo de manera local.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Segundo visualizar el proyecto
+    - Ingrese a la terminal y coloque el siguiente comando.
+        - npm run start o npm start (Para iniciar el proyecto de manera local, ocupando el http://localhost:3000).
 
-## Available Scripts
+Tercero ingreso obligatorio
+    - El proyecto tiene rutas restringidas, es por esto que se creo un usuario de prueba para que pueda ingresar, de igual forma se puede crear un usuario en la ventana de registro. Los datos de usuarios de prueba son los siguientes:
+        - email: main@gmail.com ; password: 123456
+    - Se que no era necesario pero hice la conexion con una base de datos en Firebase.
+    - Metodos para ingresar a la pagina: Login con Email y Password o Cuenta de Google.
 
-In the project directory, you can run:
+Cuarto Agregar tareas
+    - En el costado inferior derecho hay un botón flotante que al presionarlo abre la ventana para generar una nueva tarea.
+    - Una vez ingresada la tarea se visualizará en el costado izquierdo (Sidebar).
+    - Si desea eliminar o editar la tarea ingresada, debe hacerle click a la tarea en cuestion, ubicada en el costado izquierdo (Sidebar).
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Quinto Pruebas unitarias
+    - Para realizar las pruebas debe ir nuevamente al visual studio code y en la consola ingresar el siguiente comando: 
+        - npm run test:watch (Tiene la funcion del jest --watchAll).
